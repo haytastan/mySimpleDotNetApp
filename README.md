@@ -1,0 +1,1 @@
+# DotNetWpfApp using .NET 9.0 (core)
