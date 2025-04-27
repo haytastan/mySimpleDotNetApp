@@ -26,7 +26,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_TAMAM" Content="OK" HorizontalAlignment="Left" Height="18" Margin="82,100,0,0" VerticalAlignment="Top" Width="257" FontFamily="Arial Black" Click="button_TAMAM_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="button_TAMAM" Content="OK" HorizontalAlignment="Left" Height="18" Margin="44,100,0,0" VerticalAlignment="Top" Width="100" FontFamily="Arial Black" Click="button_TAMAM_Click" Grid.Column="1"/>
 
     </Grid>
 </Window>
