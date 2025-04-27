@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:myGisApp"
         mc:Ignorable="d"
-        Title="dotNET 9.0 Uygulaması  (by Dr. Hayati TAŞTAN)" Height="279" Width="426" Background="#FF73BB7E">
+        Title="dotNET 9.0 App  (by Dr. Hayati TAŞTAN)" Height="279" Width="426" Background="#FF73BB7E">
     <Grid x:Name="grid_ADSOYAD" Margin="41,31,36,33" RenderTransformOrigin="0.585,0.483" UseLayoutRounding="False">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="195*"/>
             <ColumnDefinition Width="154*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="label_AD" Content="AD" HorizontalAlignment="Left" Margin="6,24,0,0" VerticalAlignment="Top" Height="24" Width="50" FontSize="10" FontFamily="Arial Black" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Background="#FFB91111"/>
-        <Label x:Name="label_SOYAD" Content="SOYAD" HorizontalAlignment="Left" Margin="6,63,0,0" VerticalAlignment="Top" Height="24" Width="50" FontSize="10" FontFamily="Arial Black" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Background="#FFB91111" RenderTransformOrigin="0.407,0.529"/>
-        <TextBox x:Name="textBox_AD" HorizontalAlignment="Left" Margin="80,24,0,0" TextWrapping="Wrap" Text="Adınızı Yazın" VerticalAlignment="Top" Width="259" Height="24" BorderBrush="#FFB91111" Foreground="#FFB91111" FontFamily="Arial Black" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="textBox_SOYAD" HorizontalAlignment="Left" Margin="82,63,0,0" TextWrapping="Wrap" Text="Soyadınızı Yazın" VerticalAlignment="Top" Width="257" Height="24" BorderBrush="#FFB91111" Foreground="#FFB91111" FontFamily="Arial Black" Grid.ColumnSpan="2"/>
+        <Label x:Name="label_AD" Content="NAME" HorizontalAlignment="Left" Margin="6,24,0,0" VerticalAlignment="Top" Height="24" Width="69" FontSize="10" FontFamily="Arial Black" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Background="#FFB91111"/>
+        <Label x:Name="label_SOYAD" Content="SURNAME" HorizontalAlignment="Left" Margin="6,63,0,0" VerticalAlignment="Top" Height="24" Width="71" FontSize="10" FontFamily="Arial Black" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Background="#FFB91111" RenderTransformOrigin="0.407,0.529"/>
+        <TextBox x:Name="textBox_AD" HorizontalAlignment="Left" Margin="80,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" Height="24" BorderBrush="#FFB91111" Foreground="#FFB91111" FontFamily="Arial Black" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBox_SOYAD" HorizontalAlignment="Left" Margin="82,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257" Height="24" BorderBrush="#FFB91111" Foreground="#FFB91111" FontFamily="Arial Black" Grid.ColumnSpan="2"/>
         <Label x:Name="label_MERHABA" Content="" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Width="329" Background="#FF0F0C71" Foreground="#FFF3E589" FontFamily="Arial Black" Height="24" Grid.ColumnSpan="2"/>
-        <Button x:Name="button_EXIT" Content="ÇIKIŞ" HorizontalAlignment="Left" Margin="50,162,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="88" FontFamily="Arial Black" Background="#FFD22D12" BorderBrush="#FFD22D12" Foreground="#FF010113" Height="18" Click="button_EXIT_Click" Grid.Column="1">
+        <Button x:Name="button_EXIT" Content="EXIT" HorizontalAlignment="Left" Margin="50,162,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="88" FontFamily="Arial Black" Background="#FFD22D12" BorderBrush="#FFD22D12" Foreground="#FF010113" Height="18" Click="button_EXIT_Click" Grid.Column="1">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -26,7 +26,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_TAMAM" Content="TAMAM" HorizontalAlignment="Left" Height="18" Margin="82,100,0,0" VerticalAlignment="Top" Width="257" FontFamily="Arial Black" Click="button_TAMAM_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="button_TAMAM" Content="OK" HorizontalAlignment="Left" Height="18" Margin="82,100,0,0" VerticalAlignment="Top" Width="257" FontFamily="Arial Black" Click="button_TAMAM_Click" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

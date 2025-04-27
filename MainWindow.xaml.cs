@@ -25,12 +25,12 @@ public partial class MainWindow : Window
 
         if (string.IsNullOrWhiteSpace(ad) || string.IsNullOrWhiteSpace(soyad))
         {
-            MessageBox.Show("Lütfen ad ve soyad giriniz.", "Uyarı", MessageBoxButton.OK, MessageBoxImage.Warning);
+            MessageBox.Show("Please enter your name and surname.", "Warning!", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
         else
         {
             label_MERHABA.Visibility = Visibility.Visible;
-            label_MERHABA.Content = $"Merhaba {ad} {soyad}";
+            label_MERHABA.Content = $"Well done, {ad} {soyad}";
         }
     }
 
